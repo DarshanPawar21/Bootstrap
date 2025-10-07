@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Michroma&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <!-- Nevigation Bar -->
+        <div class="container-fluid m-0 p-0">
+    <nav class="navbar navbar-expand-lg bg-dark p-0 m-0 ">
+      <div class="container ">
+        <a class="navbar-brand fw-bold text-white" href="#">pawar<span class="text-warning">saheb.</span></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white" aria-current="page" href="#home" id="home">HOME</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white-50" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white-50" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white-50" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="nav-link text-white-50" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                aria-controls="offcanvasTop" href="#resume">RESUME</button>
+
+              <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h3 class="text-white"></h3>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white-50" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link text-white-50" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- section-1 -->
+  <section class="container-fluid color pt-1 pb-5">
+  <div class="container">
+      <div class="row mt-5 row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-auto">
+        <div class="col align-content-center">
+            <p class="text-warning">Hay, Welcome</p>
+            <h1 class="text-white">I m Pawar Darshan</h1>
+            <p class=" text-col">There are many variations of passages ofLorem Ipsum
+ available, but the majority havesuffered alteration in some 
+form, by injected humour,</p>
+            <button type="button" class="btn btn-warning rounded-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content color-1">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Error-1</h1>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-white">
+        This page is Under development 🚫
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn bg-dark text-white" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <div class="col d-flex justify-content-end mt-2">
+          <div class="image">
+            <img class="rounded-2 img-fluid" src="Asect/4471aa7a-1e3d-4f2a-b5c1-7720cd76b46f.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+<!-- section-2 -->
+  <section class="container-fluid color-1 pt-5 pb-5" id="about">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center mt-5 row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-auto">
+        <div class="col mt-2">
+          <div class="image">
+            <img class="rounded-2 img-fluid" src="/Asect/4471aa7a-1e3d-4f2a-b5c1-7720cd76b46f.jpg" alt="">
+          </div>
+        </div>
+        <div class="col">
+            <p class="text-white fw-bold fs-2">pawar<samp class="text-warning">saheb</samp></p>
+            <h1 class="text-col fs-6">There are many variations of passages ofLorem Ipsum
+available, but the majority havesuffered alteration in some 
+form, by injected humour,</h1>
+            <p class="text-col fs-6">Passages ofLorem Ipsumavailable, but the majority havesuffered
+alteration in some form, by injected humour,</p>
+             <button type="button" class="btn btn-warning rounded-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content color-1">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Error-1</h1>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-white">
+        This page is Under development 🚫
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn bg-dark text-white" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- section-3 -->
+<section class="container-fluid pb-5 color" id="services">
+  <div class="container">
+    <div class="row pt-4">
+      <div class="col-xxl-6 col-xl-5 col-lg-4 col-mg-3 col-sm-2"><p class="text-white fw-bold fs-2">My <samp class="text-warning">Service</samp></p>
+      <p class="text-col">There are many variations of passages ofLorem Ipsum
+ available, but the majority havesuffered alteration in some 
+form, by injected humour,</p>
+      </div>
+    </div>
+  </div>
+  <div class="contaner d-flex justify-content-center ">
+    <div class="row  gap-4">
+      <div class="col">
+        <div class="card pb-4 mt-5 color-1" style="width: 18rem;">
+          <div class="card-body text-center">
+            <svg class="mb-3 text-warning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor"><path d="M9 17C9 17 16 18 19 21H20C20.5523 21 21 20.5523 21 20V13.937C21.8626 13.715 22.5 12.9319 22.5 12C22.5 11.0681 21.8626 10.285 21 10.063V4C21 3.44772 20.5523 3 20 3H19C16 6 9 7 9 7H5C3.89543 7 3 7.89543 3 9V15C3 16.1046 3.89543 17 5 17H6L7 22H9V17ZM11 8.6612C11.6833 8.5146 12.5275 8.31193 13.4393 8.04373C15.1175 7.55014 17.25 6.77262 19 5.57458V18.4254C17.25 17.2274 15.1175 16.4499 13.4393 15.9563C12.5275 15.6881 11.6833 15.4854 11 15.3388V8.6612ZM5 9H9V15H5V9Z"></path></svg>
+            <h3 class=" ms-3 text-white col-10">Degital Marketing</h3>
+            <p class="card-text text-col">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card pb-4 mt-5 color-1" style="width: 18rem;">
+          <div class="card-body text-center">
+            <svg class="mb-3 text-warning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor"><path d="M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H21ZM20 11H4V19H20V11ZM20 5H4V9H20V5ZM19 6V8H15V6H19Z"></path></svg>
+            <h3 class="ms-3 text-white col-10">Web Devlopment</h3>
+            <p class="card-text text-col">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card pb-4 mt-5 color-1" style="width: 18rem;">
+          <div class="card-body text-center">
+            <svg class="mb-3 text-warning" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor"><path d="M7.10508 8.78991C7.45179 10.0635 8.61653 11 10 11H14C16.4703 11 18.5222 12.7915 18.9274 15.1461C20.1303 15.5367 21 16.6668 21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.7334 15.7849 15.6501 16.8949 15.2101C16.5482 13.9365 15.3835 13 14 13H10C8.87439 13 7.83566 12.6281 7 12.0004V15.1707C8.16519 15.5825 9 16.6938 9 18C9 19.6569 7.65685 21 6 21C4.34315 21 3 19.6569 3 18C3 16.6938 3.83481 15.5825 5 15.1707V8.82929C3.83481 8.41746 3 7.30622 3 6C3 4.34315 4.34315 3 6 3C7.65685 3 9 4.34315 9 6C9 7.26661 8.21506 8.34988 7.10508 8.78991ZM6 7C6.55228 7 7 6.55228 7 6C7 5.44772 6.55228 5 6 5C5.44772 5 5 5.44772 5 6C5 6.55228 5.44772 7 6 7ZM6 19C6.55228 19 7 18.5523 7 18C7 17.4477 6.55228 17 6 17C5.44772 17 5 17.4477 5 18C5 18.5523 5.44772 19 6 19ZM18 19C18.5523 19 19 18.5523 19 18C19 17.4477 18.5523 17 18 17C17.4477 17 17 17.4477 17 18C17 18.5523 17.4477 19 18 19Z"></path></svg>
+            <h3 class="ms-3 text-white col-10">Degital Marketing</h3>
+            <p class="card-text text-col">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- section-4 -->
+ <section class="container-fluid color-1 pt-1" id="portfolio">
+        <div class="container ">
+            <div class="row row-cols-md-3 row-cols d-flex justify-content-center">
+                <div class="col d-flex justify-content-center">
+                    <div class="col text-center">
+                        <h1 class="text-white fw-bold">My <samp class="text-warning">Portfolio</samp></h1>
+                        <p class="text-col">There are many variations of passages ofLorem Ipsum
+                            available, but the majority havesuffered alteration in some
+                            form, by injected humour,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-xl-2 row-cols-1">
+                <div class="col text-center">
+                    <img src="./Asect/Rectangle 1024 (1).png" class="img-fluid" alt="">
+                </div>
+                <div class="col text-center mt-2 mt-xl-0">
+                    <div class="col">
+                        <div>
+                            <img class="me-2 mb-2 img-fluid wid" src="./Asect/Rectangle 1025.png" alt="">
+                            <img class="mb-2 img-fluid" src="./Asect/Rectangle 1026.png" alt="">
+                        </div>
+                        <div>
+                            <img class="me-2 img-fluid" src="./Asect/Rectangle 1027.png" alt="">
+                            <img class=" img-fluid" src="./Asect/Rectangle 1028.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- section-5 -->
+<section class="container-fluid pb-5 color">
+  <div class="container">
+    <div class="row row-cols-md-2 row-cols pt-4">
+      <div class=""><p class="text-white fw-bold fs-2">My <samp class="text-warning">Experience</samp></p>
+      <p class="text-col">There are many variations of passages ofLorem Ipsum
+available, but the majority havesuffered alteration in some form, by injected humour,</p>
+      </div>
+    </div>
+  </div>
+  <div class="contaner d-flex justify-content-center ">
+    <div class="row gap-4">
+      <div class="col">
+        <div class="card pb-4 mt-5 color-1" style="width: 18rem;">
+          <div class="card-body ">
+           <p class="text-white">JUNE-2002-2020</p>
+            <h5 class="  text-warning ">Ux/UL Designiner</h5>
+            <p class="text-white">Figma</p>
+            <p class="card-text text-col ">There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
+alteration in some </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+                <div class="card pb-4 mt-5 color-1" style="width: 18rem;">
+          <div class="card-body ">
+           <p class="text-white">JUNE-2002-2020</p>
+            <h5 class="  text-warning ">Product Designiner</h5>
+            <p class="text-white">Abode Photoshop</p>
+            <p class="card-text text-col">There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
+alteration in some </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+                <div class="card pb-4 mt-5 color-1" style="width: 18rem;">
+          <div class="card-body ">
+           <p class="text-white">JUNE-2002-2020</p>
+            <h5 class="  text-warning ">Graphic Designiner</h5>
+            <p class="text-white">Abode Photoshop</p>
+            <p class="card-text text-col">There are many variations of passages of Lorem Ipsumav ailable, but the majority have suffered 
+alteration in some </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+    <!--section-6 -->
+ <section class="container-fluid color-1 ">
+     <div class="container text-center">
+      <h2 class="fs-2 fw-bold text-white ">Contact <samp class="text-warning">Me</samp></h2>
+      <p class="text-col">There are many variations of passages ofLorem Ipsum
+available, but the majority havesuffered alteration in some 
+form, by injected humour,</p>
+    </div>
+    <div class="container-fluid pb-5">
+      <div class="container">
+        <div class="row row-cols-md-2 row-cols-1">
+          <div class="col-6">
+            <p class="text-warning">Address_<samp class="text-white">S 80 Road, Benedict,ne, 68316  
+United States</samp></p>
+            <p class="text-warning">Phone no_<samp class="text-white">78764546</samp></p>
+            <p class="text-warning">E-Mail_<samp class="text-white">dp7878033@gmail.com</samp></p>
+            <p class="text-warning">Webside_<samp class="text-white">rnw.com</samp></p>
+          </div>
+          <div class="col">
+            <div>
+              <div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label"></label>
+  </div>
+  <div class="col-auto">
+    <input type="text" id="inputPassword6" class="form-control rounded-0 color text-white" aria-describedby="passwordHelpInline" placeholder="Name" value="Name">
+  </div>
+          </div>
+          <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control color text-white" id="exampleFormControlTextarea1" rows="5" cols="2"> Message</textarea>
+</div>
+ <button type="button" class="btn btn-warning rounded-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content color-1">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Error-1</h1>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-white">
+        This page is Under development 🚫
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn bg-dark text-white" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+            <p class="text-white fs-2 mt-4 text-center">AbountMe.</p>
+        <p class="text-col text-center">There are many variations of passages ofLorem Ipsumavailable, but the majority havesuffered alteration in some form, </p>
+        <img src="/Asect/Frame 78.png" class="" alt="">
+        </div>
+      </div>
+    </div>
+ 
+ 
+ </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
