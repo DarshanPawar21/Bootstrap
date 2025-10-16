@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Max</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="MQ.css">
+  </head>
+  <body>
+<!-- Nevigation Bar -->
+    <div class="b-example-divider"></div>
+      <header class="p-3 bg-black">
+        <div class="d-flex container justify-content-center pb-3">
+          <div
+            class="d-flex flex-wrap  justify-content-lg-start"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+            >
+              <svg
+                class="bi me-2"
+                width="40"
+                height="32"
+                role="img"
+                aria-label="Bootstrap"
+              >
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li><a href="#" class="nav-link px-2 text-secondary ms-2">Home</a></li>
+              <li><a href="#" class="nav-link px-2 text-white ms-2">Genre</a></li>
+              <li><a href="#" class="nav-link px-2 text-white ms-2">Country</a></li>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 w-70" role="search">
+              <input
+                type="search"
+                class="form-control form-control-dark ms-2 text-bg-white pe-5 text-start rounded-5"
+                placeholder="Search movies...."
+                aria-label="Search"
+              />
+            </form>
+               <li><a href="#" class="nav-link px-2 text-white ms-2">Movie</a></li>
+              <li><a href="#" class="nav-link px-2 text-white ms-2">Series</a></li>
+              <li><a href="#" class="nav-link px-2 text-white ms-2">Animation</a></li>
+            </ul>
+            <div class="m-auto">
+              <button type="button" class="btn text-white ">
+                Login/Sign-up
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+<section class="main">
+<!-- Image Bar -->
+ <div id="carouselExampleCaptions" class="carousel slide bg-black ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner bg-black">
+    <div class="carousel-item active">
+      <img src="/Assect/Rectangle 2.png" class="d-block w-100 " alt="...">
+      <div class="carousel-caption d-flex justify-content-start">
+        <div class="d-flex flex-column">
+          <span class="fw-bold fs-2 text-start">Avatar: The Way of Water</span>
+          <div class="text-start mt-2 img">
+          <button type="button" class="btn btn-light rounded-4">Action</button>
+          <button type="button" class="btn btn-light rounded-4">Action</button>
+          <button type="button" class="btn btn-light rounded-4">Science Fiction</button>
+          <span class="img"> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M17 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9V3H15V1H17V3ZM4 9V19H20V9H4ZM6 11H8V13H6V11ZM6 15H8V17H6V15ZM10 11H18V13H10V11ZM10 15H15V17H10V15Z"></path></svg> 2022 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mb-1 ms-2" text-white" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"></path></svg> 8.5
+          </span>
+          <span>
+            <p class="col-xxl-6 col-xl-8 paragrap">
+              Set more than a decade after the events of the first film, learn the story of the 
+Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.
+            </p>
+          </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/Assect/Rectangle 2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <div class="d-flex flex-column">
+          <span class="fw-bold fs-2 text-start">Avatar: The Way of Water</span>
+          <div class="text-start mt-2">
+          <button type="button" class="btn btn-light rounded-4">Action</button>
+          <button type="button" class="btn btn-light rounded-4">Action</button>
+          <button type="button" class="btn btn-light rounded-4">Science Fiction</button>
+          <span class=""> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M17 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9V3H15V1H17V3ZM4 9V19H20V9H4ZM6 11H8V13H6V11ZM6 15H8V17H6V15ZM10 11H18V13H10V11ZM10 15H15V17H10V15Z"></path></svg> 2022 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mb-1 ms-2" text-white" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"></path></svg> 8.5
+          </span>
+          <span>
+            <p class="col-6 mt-3">
+              Set more than a decade after the events of the first film, learn the story of the 
+Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.
+            </p>
+          </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/Assect/Rectangle 2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+         <div class="d-flex flex-column">
+          <span class="fw-bold fs-2 text-start">Avatar: The Way of Water</span>
+          <div class="text-start mt-2">
+          <button type="button" class="btn btn-light rounded-4">Action</button>
+          <button type="button" class="btn btn-light rounded-4">Action</button>
+          <button type="button" class="btn btn-light rounded-4">Science Fiction</button>
+          <span class=""> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M17 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9V3H15V1H17V3ZM4 9V19H20V9H4ZM6 11H8V13H6V11ZM6 15H8V17H6V15ZM10 11H18V13H10V11ZM10 15H15V17H10V15Z"></path></svg> 2022 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mb-1 ms-2" text-white" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M11.9998 17L6.12197 20.5902L7.72007 13.8906L2.48926 9.40983L9.35479 8.85942L11.9998 2.5L14.6449 8.85942L21.5104 9.40983L16.2796 13.8906L17.8777 20.5902L11.9998 17Z"></path></svg> 8.5
+          </span>
+          <span>
+            <p class="col-6 mt-3">
+              Set more than a decade after the events of the first film, learn the story of the 
+Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.
+            </p>
+          </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   <!-- section-1 -->
+ <Section class="container-fluid mt-5">
+    <div class="container text-white">
+    <span class=" fs-4">Recently Updated</span>
+      <div class="row mt-3">
+        <div class="col d-flex mt-2">
+          <img src="/Assect/Rectangle 22.png" alt="">
+          <div class="ms-3 mt-3 d-flex flex-column ">
+            <span>The Flash</span>
+            <snap>Series/S 2EP 9</snap>
+            <snap>11\05\2023</snap>
+          </div>
+        </div>
+        <div class="col d-flex mt-2">
+          <img src="/Assect/photo-1.png" alt="">
+          <div class="ms-3 mt-3 d-flex flex-column ">
+            <span>Fubar</span>
+            <snap>Series/S 1/EP 8</snap>
+            <snap>11\05\2023</snap>
+          </div>
+        </div>
+       <div class="col d-flex mt-2">
+          <img src="/Assect/photo-2.png" alt="">
+          <div class="ms-3 mt-3 d-flex flex-column ">
+            <span>Manifest</span>
+            <snap>Series/S 4/EP 12</snap>
+            <snap>11\05\2023</snap>
+          </div>
+        </div>
+        <div class="col d-flex mt-2">
+          <img src="/Assect/photo-3.png" alt="">
+          <div class="ms-3 mt-3 d-flex flex-column ">
+            <span>Silo</span>
+            <snap>Series/S 1/EP 10</snap>
+            <snap>11\05\2023</snap>
+          </div>
+        </div>
+        <div class="col">
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+ </Section>
+ <!-- section-3 -->
+  <section class="container-fluid">
+    <div class="container fw-bold text-white mt-5">
+      <span class=" fs-4 d-flex justify-content-between align-items-center">Trending <span><h4 class="tex-1 img">View all<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(173,184,194,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></h4></span></span>
+      <div class="row mt-4 cen">
+        <div class="col d-flex justify-content-center mb-2">
+          <div class="" style="width: 18rem;">
+  <img src="Assect/Movie-1.png" class="card-img-top" alt="...">
+  
+  <div class="card-body mt-2">
+    <span class="d-flex justify-content-between fs-5 fw-bold text-white">Medellin <span><button type="button" class="bg text-white rounded-2 border-0" class=""> Action</button> <button type="button" class="bg text-white rounded-2 border-0">Danger</button></span></span>
+  </div>
+          </div>
+        </div>
+         <div class="col d-flex justify-content-center mt-2">
+          <div class="" style="width: 18rem;">
+  <img src="Assect/Movie-2.png" class="card-img-top" alt="...">
+  <div class="card-body mt-2">
+    <span class="d-flex justify-content-between fs-6 fw-bold text-white">Fast X <span class=""><button type="button" class="bg text-white rounded-2 border-0 me-2" class=""> Action</button><span><button type="button" class="bg text-white rounded-2 border-0" class=""> Crime</button> <button type="button" class="bg text-white rounded-2 border-0">Thriller</button></span></span>
+  </div>
+          </div>
+        </div> <div class="col d-flex justify-content-center mt-2">
+          <div class="" style="width: 18rem;">
+  <img src="Assect/Movie-3.png" class="card-img-top" alt="...">
+  <div class="card-body mt-2">
+    <span class="d-flex justify-content-between fs-5 fw-bold text-white">Medellin <span><button type="button" class="bg text-white rounded-2 border-0" class=""> Horror</button> <button type="button" class="bg text-white rounded-2 border-0">Thriller</button></span></span>
+  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section-2 -->
+   <section class="container-fluid mt-5">
+    <div class="container text-white">
+        <span class="text-white fw-bold fs-4 d-flex justify-content-between align-items-center">New Release - Movies <span><h4 class="tex-1 img">View all<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(173,184,194,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></h4></span></span>
+      <div class="row mt-4 ">
+        <div class="col">
+            <img src="/Assect/sm-image-1.png" class="img-fluid" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Ghosted</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <img src="/Assect/sm-image-2.png" class="img-fluid" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>John Wick: Ch...</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+        </div><div class="col">
+            <img src="/Assect/sm-image-3.png" class="img-fluid" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Guardians of th</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+        </div><div class="col">
+            <img src="/Assect/sm-image-4.png" class="img-fluid" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>The Conven...</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- section-4 -->
+   <secttion class="container-fluid mt-4">
+    <div class="container text-white">
+      <span class="text-white fw-bold fs-4 d-flex justify-content-between align-items-center">New Release - Series <span><h4 class="tex-1 img">View all<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(173,184,194,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></h4></span></span>
+      <div class="row mt-3">
+        <div class="col">
+          <div class="inne">
+            <img src="/Assect/s-image-1.png" class="img-fluid" alt="">
+          <div class="into bg text-white p-1 rounded-2">
+              EP 6
+          </div>
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Slio</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white">Season 1</button>             
+              </span>
+            </div>
+            </div>
+          </div> 
+        </div>
+         <div class="col">
+          <div class="inne">
+            <img src="/Assect/s-image-2.png" class="img-fluid" alt="">
+          <div class="into bg text-white p-1 rounded-2">
+              EP 6
+          </div>
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Black Knight</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white">Season 1</button>             
+              </span>
+            </div>
+            </div>
+          </div> 
+        </div> <div class="col">
+          <div class="inne">
+            <img src="/Assect/s-image-3.png" class="img-fluid" alt="">
+          <div class="into bg text-white p-1 rounded-2">
+              EP 6
+          </div>
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Drops of God</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white">Season 1</button>             
+              </span>
+            </div>
+            </div>
+          </div> 
+        </div> <div class="col">
+          <div class="inne">
+            <img src="/Assect/s-image-4.png" class="img-fluid" alt="">
+          <div class="into bg text-white p-1 rounded-2">
+              EP 6
+          </div>
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>The Night Age</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white">Season 1</button>             
+              </span>
+            </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+   </secttion>
+   <!-- section-5 -->
+    <secyion class="container-fluid ">
+      <div class="container text-white">
+          <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid d-flex gap-3">
+    <a class="navbar-brand text-white fw-bold" href="#">Recommended </a>
+    <button type="button" class="btn btn-danger">Movie</button>
+    <button type="button" class="btn btn-outline-danger text-secondary border-2">Series</button>
+    <div class="collapse navbar-collapse" id="navbarText">
+       <button type="button" class="btn btn-outline-danger text-secondary border-2">Animation</button>
+      <span class="navbar-text">
+        
+      </span>
+    </div>
+  </div>
+  <div class="d-flex align-items-center fs-3 text-secondary img">View <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(173,184,194,1)"><path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path></svg></h4></span></span></div>
+      </div>
+</nav>
+      </div>
+    </secyion>
+    <section class="container-fluid mt-4 pb-5">
+      <div class="container text-white">
+        <div class="row mt-3">
+          <div class="col">
+            <img src="/Assect/s-image-5.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Robots</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                CAM
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+           <div class="col">
+            <img src="/Assect/s-image-6.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Love Again</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                CAM
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+           <div class="col">
+            <img src="/Assect/s-image-7.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Hypnotic</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                CAM
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+           <div class="col">
+            <img src="/Assect/s-image-8.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Paint</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>  
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <img src="/Assect/s-image-9.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Book Club</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                CAM
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="/Assect/s-image-10.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>The Mother</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="/Assect/s-image-11.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>The Mother</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="/Assect/s-image-12.png" alt="">
+            <div class="content d-flex justify-content-between mt-3 align-items-center">
+            <div>Sisu</div>   
+            <div class="text-white  rounded-2  d-flex gap-2 align-items-center">
+              <div class="bg p-1 rounded-2">
+                HD
+              </div>
+              <span>              
+              <button type="button" class="btn btn-outline-danger text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="ms-2" width="16" height="16" fill="rgba(255,255,255,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12H4C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C9.25022 4 6.82447 5.38734 5.38451 7.50024L8 7.5V9.5H2V3.5H4L3.99989 5.99918C5.82434 3.57075 8.72873 2 12 2ZM13 7L12.9998 11.585L16.2426 14.8284L14.8284 16.2426L10.9998 12.413L11 7H13Z"></path></svg> 3:12:00</button>             
+              </span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+*{
+  /* border: solid black; */
+}
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+.bg {
+  background: red;
+}
+.tex-1{
+  color: silver;
+}
+.movie{
+  width: 256px;
+  height: 344px;
+  background: #000;
+}
+.inne{
+  position: relative;
+}
+.into{
+  position: absolute;
+  bottom: 90%;
+  left: 1%;
+  color: red;
+  z-index: -0;
+}
+.content{
+  width: 256px;
+}
+.main{
+  background: black;  
+}

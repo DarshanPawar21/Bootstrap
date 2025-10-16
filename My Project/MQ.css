@@ -1,0 +1,17 @@
+@media (max-width:768px) {
+    .paragrap{
+        display: none;
+    }
+}
+@media(max-width:576px){
+    .img{
+        display: none;
+    }
+}
+@media(max-width:941px)
+{
+    .cen{
+        display: flex;
+        justify-content: center;
+    }
+}
